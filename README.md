@@ -24,6 +24,7 @@ sh -x ./multi-profile-service-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev,co
 ```
 
 # What should I see?
+
 There are 3 configuration files at play here
 1. `application.yml`, which contains any base configuration (packaged with the application)
 1. `application-dev.yml`, which contains dev-specific configuration (also packaged with the application executable)
